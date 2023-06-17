@@ -4,7 +4,7 @@ file_path = r'C:\Users\Awary\Desktop\Учеба\Python\Новая папка\pho
 def add_number():
     with open(file_path,'a') as p:
         p.write('\n')
-        p.write(input('Введите ФИО и номер: '))
+        .write(input('Введите ФИО и номер: '))
 
 def search():
     with open(file_path,'r') as p:
